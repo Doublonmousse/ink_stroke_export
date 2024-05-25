@@ -9,8 +9,10 @@ Note that ink stroke information is not easily accessible when copying a selecti
 
 To access nebo files, you can either select notebook or individual pages and export them one by one to a `.nebo` file.
 
-
-
+All files are also accessible at this location
+```
+C:\Users\USERNAME\AppData\Local\Packages\VisionObjects.MyScriptNebo_1rjv6qr7skr92\LocalState\notes\.noUser\
+```
 
 ## Inkodo
 
@@ -18,4 +20,11 @@ Database approach (sql files) + stroke data saved using the Ink Serialization Fo
 
 ## Journal
 
-Database approach (sql files)
+Database approach (sql files) for each note file (`.journal` file saved in the `Documents` folder) where everything is readily readable EXCEPT ink stroke data (binary blobs).
+Pdfs are converted to images as well.
+
+One interesting property though is that stroke information is available when copying a selection to the clipboard (there is an inkml file format that's avaiable then). But that only applies to strokes, the rest is not copied.
+
+## OneNote
+
+Same remark as Journal's on inkml for strokes being available when copying a selection. This time images are also available and encoded in base64 for png under an html filetype in the clipboard.
