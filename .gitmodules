@@ -1,0 +1,3 @@
+[submodule "interactive-ink-examples-uwp"]
+	path = interactive-ink-examples-uwp
+	url = https://github.com/Doublonmousse/interactive-ink-examples-uwp
