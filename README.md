@@ -16,7 +16,7 @@ C:\Users\USERNAME\AppData\Local\Packages\VisionObjects.MyScriptNebo_1rjv6qr7skr9
 
 ## Inkodo
 
-Database approach (sql files) + stroke data saved using the Ink Serialization Format
+Database approach (sql files) + stroke data saved using the Ink Serialized Format
 
 ## Journal
 
