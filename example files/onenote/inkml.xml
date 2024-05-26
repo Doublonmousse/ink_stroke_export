@@ -1,0 +1,83 @@
+<inkml:ink xmlns:inkml="http://www.w3.org/2003/InkML">
+    <inkml:definitions>
+        <inkml:context xml:id="ctx0">
+            <inkml:inkSource xml:id="inkSrc0">
+                <inkml:traceFormat>
+                    <inkml:channel name="X" type="integer" min="-2.14748E9" max="2.14748E9" />
+                    <inkml:channel name="Y" type="integer" min="-2.14748E9" max="2.14748E9" />
+                    <inkml:channel name="F" type="integer" max="32767" />
+                    <inkml:channel name="OA" type="integer" max="360" />
+                    <inkml:channel name="OE" type="integer" max="90" />
+                </inkml:traceFormat>
+                <inkml:channelProperties>
+                    <inkml:channelProperty channel="X" name="resolution" value="1000" units="1/cm" />
+                    <inkml:channelProperty channel="Y" name="resolution" value="1000" units="1/cm" />
+                    <inkml:channelProperty channel="F" name="resolution" value="0" units="1/dev" />
+                    <inkml:channelProperty channel="OA" name="resolution" value="1000" units="1/deg" />
+                    <inkml:channelProperty channel="OE" name="resolution" value="1000" units="1/deg" />
+                </inkml:channelProperties>
+            </inkml:inkSource>
+            <inkml:timestamp xml:id="ts0" timeString="2024-05-26T13:14:42.732" />
+        </inkml:context>
+        <inkml:brush xml:id="br0">
+            <inkml:brushProperty name="width" value="0.035" units="cm" />
+            <inkml:brushProperty name="height" value="0.035" units="cm" />
+            <inkml:brushProperty name="fitToCurve" value="1" />
+        </inkml:brush>
+        <inkml:context xml:id="ctx1">
+            <inkml:inkSource xml:id="inkSrc1">
+                <inkml:traceFormat>
+                    <inkml:channel name="X" type="integer" min="-2.14748E9" max="2.14748E9" />
+                    <inkml:channel name="Y" type="integer" min="-2.14748E9" max="2.14748E9" />
+                    <inkml:channel name="F" type="integer" max="32767" />
+                </inkml:traceFormat>
+                <inkml:channelProperties>
+                    <inkml:channelProperty channel="X" name="resolution" value="1000" units="1/cm" />
+                    <inkml:channelProperty channel="Y" name="resolution" value="1000" units="1/cm" />
+                    <inkml:channelProperty channel="F" name="resolution" value="0" units="1/dev" />
+                </inkml:channelProperties>
+            </inkml:inkSource>
+            <inkml:timestamp xml:id="ts1" timeString="2024-05-26T13:14:42.732" />
+        </inkml:context>
+        <inkml:brush xml:id="br1">
+            <inkml:brushProperty name="width" value="0.035" units="cm" />
+            <inkml:brushProperty name="height" value="0.035" units="cm" />
+        </inkml:brush>
+    </inkml:definitions>
+    <inkml:trace contextRef="#ctx0" brushRef="#br0">4283 5015 18887 0
+        0,'-41'36'1680'0'0,"-16"18"-1344"0"0,-9 18-272 0 0,-16 23-64 0 0,-17 28 128 0 0,14-8 16 0
+        0,24-25 0 0 0,20-24 0 0 0,4-8-144 0 0,-13 30 0 0 0,-35 62 0 0 0,-32 64-72 0 0,-14 40 72 0
+        0,11-3 0 0 0,30-33 0 0 0,35-51 0 0 0,30-51 0 0 0,26-40 0 0 0,20-32 80 0 0,25-23-80 0 0,19-15
+        96 0 0,22-12-32 0 0,14-7-64 0 0,4-9 96 0 0,0-9-96 0 0,7-12 72 0 0,4-13-72 0 0,11-15 64 0
+        0,9-17 0 0 0,4-8-64 0 0,1 2 96 0 0,-6 2-32 0 0,-5 7-64 0 0,-15 1 80 0 0,-16 0-80 0 0,-2 5 80
+        0 0,2 4 48 0 0,-9 11 0 0 0,-5 15 8 0 0,-18 17 0 0 0,-17 10 8 0 0,-14 12 0 0 0,-7 10 0 0 0,-9
+        12 0 0 0,-6 10-144 0 0,-12 19 0 0 0,-7 20 64 0 0,-13 27-64 0 0,-10 32 64 0 0,-13 15-64 0
+        0,-7 4 72 0 0,-16 22-72 0 0,-21 28 64 0 0,-17 33-64 0 0,-17 31 0 0 0,1 10 0 0 0,5-9 64 0
+        0,2-15-64 0 0,-3-11 0 0 0,12-22 0 0 0,20-26 128 0 0,18-15-16 0 0,21-7-8 0 0,21-33 0 0
+        0,17-35 0 0 0,18-26 0 0 0,15-19 0 0 0,25-22 0 0 0,20-13-104 0 0,27-20 0 0 0,27-15 64 0
+        0,19-21-64 0 0,7-13 0 0 0,17-33 0 0 0,15-32 0 0 0,20-13 0 0 0,14-7 0 0 0,-9-8 0 0 0,-9-7 0 0
+        0,2-8 0 0 0,-2 4 0 0 0,-3 3 0 0 0,1 4 0 0 0,-23 22 0 0 0,-27 24 0 0 0,-11 18 0 0 0,-5 6 0 0
+        0,-27 19 0 0 0,-23 15 96 0 0,-15 17 0 0 0,-13 16 0 0 0,-13 10 0 0 0,-13 14 40 0 0,-13 19 8 0
+        0,-14 21 0 0 0,-20 23 0 0 0,-19 20 48 0 0,-13 25 0 0 0,-3 10 8 0 0,-17 26 0 0 0,-23 25 0 0
+        0,-28 49 0 0 0,-24 52 0 0 0,-18 28 0 0 0,-4 10-40 0 0,5 0 0 0 0,10-3-8 0 0,13-14 0 0
+        0,15-14-56 0 0,18-26 0 0 0,14-24-8 0 0,25-37 0 0 0,22-37-24 0 0,27-30-64 0 0,24-23 96 0
+        0,23-30-32 0 0,20-26-64 0 0,22-20 0 0 0,19-15 0 0 0,9-16 0 0 0,2-6-192 0 0,19-25 16 0
+        0,26-29 8 0 0,14-33 0 0 0,7-29 48 0 0,8-19 16 0 0,2 0 0 0 0,5-20 0 0 0,5-14-8 0 0,-8-1 0 0
+        0,-19 17 0 0 0,7 2 0 0 0,12 4-64 0 0,-13 5-16 0 0,-20 9 0 0 0,1 13 0 0 0,8 16-640 0 0,-12
+        24-128 0 0,-17 23-24 0 0</inkml:trace>
+    <inkml:trace contextRef="#ctx1" brushRef="#br1">8770 17054 30483,'-2'93'0,"-3"0"0,-5 0 0,-2-1
+        0,-5 0 0,-3-1 0,-3-1 0,-4-1 0,-4-1 0,-3-1 0,-3-2 0,-4-1 0,-3-2 0,-3-2 0,-3-1 0,-3-3 0,-3-2
+        0,-3-2 0,-3-2 0,-3-3 0,-2-2 0,-3-3 0,-2-3 0,-2-3 0,-2-3 0,-3-3 0,-1-3 0,-2-3 0,-2-3 0,-1-4
+        0,-2-3 0,-1-3 0,-1-4 0,-1-4 0,-1-3 0,-1-3 0,0-5 0,-1-2 0,0-5 0,0-3 0,0-4 0,0-3 0,0-5 0,1-2
+        0,0-5 0,1-3 0,1-3 0,1-4 0,1-4 0,1-3 0,2-3 0,1-4 0,2-3 0,2-3 0,1-3 0,3-3 0,2-3 0,2-3 0,2-3
+        0,3-3 0,2-2 0,3-3 0,3-2 0,3-2 0,3-2 0,3-3 0,3-1 0,3-2 0,3-2 0,4-1 0,3-2 0,3-1 0,4-1 0,4-1
+        0,3-1 0,3-1 0,5 0 0,2-1 0,5 0 0,3 0 0,4 0 0,3 0 0,5 0 0,2 1 0,5 0 0,3 1 0,3 1 0,4 1 0,4 1
+        0,3 1 0,3 2 0,4 1 0,3 2 0,3 2 0,3 1 0,3 3 0,3 2 0,3 2 0,3 2 0,3 3 0,2 2 0,3 3 0,2 3 0,2 3
+        0,2 3 0,3 3 0,1 3 0,2 3 0,2 3 0,1 4 0,2 3 0,1 3 0,1 4 0,1 4 0,1 3 0,1 3 0,0 5 0,1 2 0,0 5
+        0,0 3 0,0 4 0,0 3 0,0 5 0,-1 2 0,0 5 0,-1 3 0,-1 3 0,-1 4 0,-1 4 0,-1 3 0,-2 3 0,-1 4 0,-2 3
+        0,-2 3 0,-1 3 0,-3 3 0,-2 3 0,-2 3 0,-2 3 0,-3 3 0,-2 2 0,-3 3 0,-3 2 0,-3 2 0,-3 2 0,-3 3
+        0,-3 1 0,-3 2 0,-3 2 0,-4 1 0,-3 2 0,-3 1 0,-4 1 0,-4 1 0,-3 1 0,-3 1 0,-5 0 0,-2 1 0,-5 0
+        0,-3 0 0</inkml:trace>
+    <inkml:trace contextRef="#ctx1" brushRef="#br1">12295 15787
+        31501,'-2144'3714'0,"6431"-3714"0,-6430-3714 0</inkml:trace>
+</inkml:ink>

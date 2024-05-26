@@ -1,0 +1,22 @@
+{
+ "Application_Version": "5.12.16224.0",
+ "automaticPageTitle": "",
+ "OS": "Windows",
+ "pageHasContent": false,
+ "pageValid": true,
+ "pageTitle": "",
+ "backgroundPattern": "grid",
+ "Type": "Raw Content",
+ "uuid": "e8fa6c91-3147-4aaf-9128-951e700fb460",
+ "language": "fr_FR",
+ "Document_Version": "1.11",
+ "creationDate": "2024-05-26 12:45:44.163726",
+ "lastModificationDate": "2024-05-26 12:45:44.163726",
+ "thumbnailGenerationDate": "1970-01-01 00:00:00.000000",
+ "Drawing_Version": [ 1, 1 ],
+ "Diagram_Version": [ 1, 6 ],
+ "Math_Version": [ 1, 2 ],
+ "childPageCount": 0,
+ "backgroundColor": 4294967295,
+ "creationApplicationVersion": "5.12.16224.0"
+}

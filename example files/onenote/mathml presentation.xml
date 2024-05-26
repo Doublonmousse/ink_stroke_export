@@ -1,0 +1,49 @@
+
+
+<?xml version="1.0" encoding="UTF-16" standalone="no"?>
+<mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" display="block">
+    <mml:msup>
+        <mml:mrow>
+            <mml:mfenced>
+                <mml:mrow>
+                    <mml:mi>x</mml:mi>
+                    <mml:mo>+</mml:mo>
+                    <mml:mi>a</mml:mi>
+                </mml:mrow>
+            </mml:mfenced>
+        </mml:mrow>
+        <mml:mi>n</mml:mi>
+    </mml:msup>
+    <mml:mo>=</mml:mo>
+    <mml:munderover>
+        <mml:mo stretchy="false">∑</mml:mo>
+        <mml:mrow>
+            <mml:mi>k</mml:mi>
+            <mml:mo>=</mml:mo>
+            <mml:mn>0</mml:mn>
+        </mml:mrow>
+        <mml:mi>n</mml:mi>
+    </mml:munderover>
+    <mml:mrow>
+        <mml:mfenced>
+            <mml:mrow>
+                <mml:mfrac linethickness="0">
+                    <mml:mi>n</mml:mi>
+                    <mml:mi>k</mml:mi>
+                </mml:mfrac>
+            </mml:mrow>
+        </mml:mfenced>
+        <mml:msup>
+            <mml:mi>x</mml:mi>
+            <mml:mi>k</mml:mi>
+        </mml:msup>
+        <mml:msup>
+            <mml:mi>a</mml:mi>
+            <mml:mrow>
+                <mml:mi>n</mml:mi>
+                <mml:mo>−</mml:mo>
+                <mml:mi>k</mml:mi>
+            </mml:mrow>
+        </mml:msup>
+    </mml:mrow>
+</mml:math>

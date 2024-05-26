@@ -1,0 +1,1067 @@
+
+
+.smartpen
+{
+color:#000000ff;
+font-family:sans-serif;
+line-height:1.5;
+font-size:6.66666666;
+font-style:normal;
+font-variant:small-caps;
+font-weight:400;
+-myscript-pen-width:0.625; /* Same as Default pen-width named '0.35' in nebo's PenStyleUtils.cpp */
+}
+
+.eraser
+{
+-myscript-pen-width:3.0;
+}
+
+.eraser-feedback
+{
+-myscript-pen-fill-style:none;
+-myscript-pen-width:0.5; /* Used by makeArc for heigth of edging */
+color:#80808080;
+}
+
+.component-brush
+{
+-myscript-pen-brush:Highlighter;
+-myscript-pen-width:5.0;
+}
+
+.diagram-highlighter-framed
+{
+-myscript-text-decoration-style:framed-background;
+}
+
+.diagram-pdf-highlighter
+{
+color:#00000000;
+-myscript-pen-brush:Polyline;
+-myscript-pen-width:1;
+}
+
+.void
+{
+color:#00000000;
+line-height:0.0;
+font-size:0.0;
+font-weight:0.0;
+-myscript-pen-width:0.0;
+}
+
+.selectorStroke
+{
+-myscript-pen-brush:dash caps-square;
+-myscript-pen-width:0.5;
+-myscript-pen-fill-style:solid;
+color:#1A9fffff;
+}
+
+.selectorStrokeClosingLine
+{
+-myscript-pen-brush:dash caps-square;
+-myscript-pen-width:0.5;
+-myscript-pen-fill-style:solid;
+color:#00000033;
+}
+
+stroke
+{
+-myscript-pen-brush:FeltPen;
+}
+
+line
+{
+-myscript-pen-brush:caps-square;
+-myscript-begin-arrow-size:3.552;
+}
+
+arc
+{
+-myscript-pen-brush:caps-square;
+-myscript-begin-arrow-size:3.552;
+}
+
+.boundingBox
+{
+color:#1a8bffff;
+-myscript-pen-width:0.5;
+}
+
+.textBoundingBox
+{
+color:#aaaaaaff;
+}
+
+.textBoundingBoxPale
+{
+color:#aaaaaa44;
+}
+
+.beautifiedShape
+{
+color:#1a8bffff;
+-myscript-pen-width:1;
+-myscript-pen-brush:Polyline;
+}
+
+.pie
+{
+color:#00000000;
+-myscript-pen-width:0;
+-myscript-pen-brush:Polyline;
+}
+
+.fillShape
+{
+-myscript-pen-fill-color:#00000000;
+-myscript-pen-fill-style:solid;
+}
+
+.anim-fill
+{
+-myscript-pen-fill-color:#00000014;
+-myscript-pen-fill-style:solid;
+color:#00000000;
+}
+
+.fillShapeSelection
+{
+-myscript-pen-fill-color:#00000014;
+-myscript-pen-fill-style:solid;
+}
+
+.fillShapeSelection
+{
+-myscript-pen-fill-color:#44aadf44;
+-myscript-pen-fill-style:solid;
+}
+
+.darkFillShape
+{
+-myscript-pen-fill-color:#44aadfbb;
+-myscript-pen-fill-style:solid;
+-myscript-pen-brush:Polyline;
+}
+
+.halo
+{
+-myscript-pen-fill-color:#44aadf44;
+-myscript-pen-fill-style:solid;
+}
+
+.darkHalo
+{
+-myscript-pen-fill-color:#44aadf88;
+-myscript-pen-fill-style:solid;
+-myscript-pen-brush:Polyline;
+}
+
+.tableText
+{
+line-height:1.65;
+font-size:6.045;
+}
+
+.pieFirst
+{
+-myscript-pen-fill-color:FFCCF244;
+-myscript-pen-fill-style:solid;
+-myscript-pen-brush:Polyline;
+}
+
+.pieSecond
+{
+-myscript-pen-fill-color:99E69944;
+-myscript-pen-fill-style:solid;
+-myscript-pen-brush:Polyline;
+}
+
+.pieThird
+{
+-myscript-pen-fill-color:80dfff44;
+-myscript-pen-fill-style:solid;
+-myscript-pen-brush:Polyline;
+}
+
+.tableRuler
+{
+-myscript-pen-width:1.6;
+-myscript-pen-fill-color:80dfff44;
+-myscript-pen-fill-style:solid;
+}
+
+.headingBox
+{
+color:#CED1D4ff;
+-myscript-pen-width:1.0;
+-myscript-pen-fill-color:#F5F6F77f;
+-myscript-pen-fill-style:solid;
+}
+
+.externalBorder
+{
+-myscript-pen-width:1.6;
+}
+
+.internalBorder
+{
+-myscript-pen-width:1;
+}
+
+.implicitBorder
+{
+color:#00000055;
+-myscript-pen-width:.6;
+-myscript-pen-brush:dash caps-square;
+}
+
+.implicitExtension
+{
+color:#00000017;
+-myscript-pen-width:.6;
+-myscript-pen-brush:dotted caps-square;
+}
+
+.tableLabel
+{
+color:#888888ff;
+font-size:4.534;
+}
+
+.anchorBorder
+{
+color:#888888ff;
+-myscript-pen-width:.8;
+}
+
+.tags
+{
+color:#ff0000ff;
+font-family:sans-serif;
+font-size:2.26;
+}
+
+.externalHandle
+{
+color:#1a8bffff;
+-myscript-pen-brush:Polyline;
+-myscript-pen-fill-color:#ffffffff;
+-myscript-pen-fill-style:solid;
+-myscript-pen-width:1.0;
+}
+
+.externalHandlePale
+{
+color:#44aadf55;
+-myscript-pen-fill-color:#ffffff55;
+}
+
+.middleHandle
+{
+color:#ffffffff;
+-myscript-pen-fill-color:#1a8bffff;
+-myscript-pen-fill-style:solid;
+-myscript-pen-width:0.5;
+}
+
+.middleHandlePale
+{
+color:#ffffff55;
+-myscript-pen-fill-color:#44aadf55;
+}
+
+.joinHandle
+{
+color:#1a8bffff;
+-myscript-pen-fill-color:#1a8bffff;
+-myscript-pen-fill-style:solid;
+-myscript-pen-width:1.0;
+}
+
+.defaultHandle
+{
+color:#ffffffff;
+-myscript-pen-brush:Polyline;
+-myscript-pen-fill-color:#1a8bffff;
+-myscript-pen-fill-style:solid;
+-myscript-pen-width:0.5;
+}
+
+.defaultHandlePale
+{
+color:#aaaaaa44;
+-myscript-pen-brush:Polyline;
+-myscript-pen-fill-color:#44444444;
+-myscript-pen-fill-style:solid;
+-myscript-pen-width:0.5;
+}
+
+.defaultHandleInactive
+{
+color:#ffffffaa;
+-myscript-pen-brush:Polyline;
+-myscript-pen-fill-color:#1a8bffaa;
+-myscript-pen-fill-style:solid;
+-myscript-pen-width:0.5;
+}
+
+.alignmentGuideLine
+{
+color:#1a8bffff;
+-myscript-pen-width:0.5;
+-myscript-pen-brush:dash caps-square;
+}
+
+.homotheticGuideLine
+{
+color:#1a8bffff;
+-myscript-pen-width:0.5;
+-myscript-pen-brush:dash caps-square;
+}
+
+.squareGuideLine
+{
+color:#1a8bffff;
+-myscript-pen-width:0.5;
+-myscript-pen-brush:dash caps-square;
+}
+
+.innerSquareGuideLine
+{
+color:#1a8bffff;
+-myscript-pen-width:0.5;
+-myscript-pen-brush:dash caps-square;
+}
+
+.imageAspectRatioGuideLine
+{
+color:#1a8bffff;
+-myscript-pen-width:0.5;
+-myscript-pen-brush:dash caps-square;
+}
+
+.gridDark
+{
+color:#00000044;
+-myscript-pen-width:0.5;
+}
+
+.gridLight
+{
+color:#00000011;
+-myscript-pen-width:0.5;
+}
+
+.selectionMultiple
+{
+color:#1a8bff4c;
+-myscript-pen-width:0.5;
+}
+
+.greyGhost
+{
+color:#bfbfbfff;
+}
+
+.blueGhost
+{
+color:#1a8bffff;
+}
+
+.diagramGuide
+{
+color:#00000029;
+-myscript-pen-width:0.208;
+}
+
+.diagramGuideInter
+{
+color:#00000029;
+-myscript-pen-width:0.208;
+}
+
+.diagramGuideDots
+{
+color:#00000029;
+-myscript-pen-width:1.2;
+-myscript-pen-brush:dotted.4.44;
+}
+
+/* Optional Styles */
+.black
+{
+color:#000000ff;
+}
+
+.darkGrey
+{
+color:#808080ff;
+}
+
+.lightGrey
+{
+color:#D9D9D9ff;
+}
+
+.blue
+{
+color:#1a8cffff;
+}
+
+.red
+{
+color:#ff1a40ff;
+}
+
+.green
+{
+color:#2bd965ff;
+}
+
+.yellow
+{
+color:#ffdd33ff;
+}
+
+/* Math */
+.atk-math-regular
+{
+font-style: normal;
+}
+
+.atk-math-italic
+{
+font-style: italic;
+}
+
+/* color is transparent, only fill is important */
+.connectionFeedback
+{
+color:#00000000;
+-myscript-pen-fill-color:#44aadfff;
+-myscript-pen-fill-style:solid;
+}
+.connectedShapeFeedback
+{
+color:#44aadfff;
+}
+
+/* Diagram type feedback */
+.diagram-shape
+{
+color:#ff1a404f;
+-myscript-pen-width: 2;
+}
+
+.diagram-drawing
+{
+color:#ffdd334f;
+-myscript-pen-width: 2;
+}
+
+.diagram-math
+{
+color:#2bd9654f;
+-myscript-pen-width: 2;
+}
+
+.diagram-text
+{
+color:#1a8cff4f;
+-myscript-pen-width: 2;
+}
+
+.diagram-typeset
+{
+color:#1a8cffff;
+}
+
+.diagram-table
+{
+color:#ff69b44f;
+-myscript-pen-width: 2;
+}
+
+.imageFakeContent
+{
+color:#00000000;
+-myscript-pen-width: 0.0;
+-myscript-pen-brush:Polyline;
+}
+
+
+
+.smartpen
+{
+color:#000000ff;
+font-family:sans-serif;
+line-height:1.5;
+font-size:6.66666666;
+font-style:normal;
+font-variant:small-caps;
+font-weight:400;
+-myscript-pen-width:0.625; /* Same as Default pen-width named '0.35' in nebo's PenStyleUtils.cpp */
+}
+
+.eraser
+{
+-myscript-pen-width:3.0;
+}
+
+.eraser-feedback
+{
+-myscript-pen-fill-style:none;
+-myscript-pen-width:0.5; /* Used by makeArc for heigth of edging */
+color:#80808080;
+}
+
+.component-brush
+{
+-myscript-pen-brush:Highlighter;
+-myscript-pen-width:5.0;
+}
+
+.diagram-highlighter-framed
+{
+-myscript-text-decoration-style:framed-background;
+}
+
+.diagram-pdf-highlighter
+{
+color:#00000000;
+-myscript-pen-brush:Polyline;
+-myscript-pen-width:1;
+}
+
+.void
+{
+color:#00000000;
+line-height:0.0;
+font-size:0.0;
+font-weight:0.0;
+-myscript-pen-width:0.0;
+}
+
+.selectorStroke
+{
+-myscript-pen-brush:dash caps-square;
+-myscript-pen-width:0.5;
+-myscript-pen-fill-style:solid;
+color:#1A9fffff;
+}
+
+.selectorStrokeClosingLine
+{
+-myscript-pen-brush:dash caps-square;
+-myscript-pen-width:0.5;
+-myscript-pen-fill-style:solid;
+color:#00000033;
+}
+
+stroke
+{
+-myscript-pen-brush:FeltPen;
+}
+
+line
+{
+-myscript-pen-brush:caps-square;
+-myscript-begin-arrow-size:3.552;
+}
+
+arc
+{
+-myscript-pen-brush:caps-square;
+-myscript-begin-arrow-size:3.552;
+}
+
+.boundingBox
+{
+color:#1a8bffff;
+-myscript-pen-width:0.5;
+}
+
+.textBoundingBox
+{
+color:#aaaaaaff;
+}
+
+.textBoundingBoxPale
+{
+color:#aaaaaa44;
+}
+
+.beautifiedShape
+{
+color:#1a8bffff;
+-myscript-pen-width:1;
+-myscript-pen-brush:Polyline;
+}
+
+.pie
+{
+color:#00000000;
+-myscript-pen-width:0;
+-myscript-pen-brush:Polyline;
+}
+
+.fillShape
+{
+-myscript-pen-fill-color:#00000000;
+-myscript-pen-fill-style:solid;
+}
+
+.anim-fill
+{
+-myscript-pen-fill-color:#00000014;
+-myscript-pen-fill-style:solid;
+color:#00000000;
+}
+
+.fillShapeSelection
+{
+-myscript-pen-fill-color:#00000014;
+-myscript-pen-fill-style:solid;
+}
+
+.fillShapeSelection
+{
+-myscript-pen-fill-color:#44aadf44;
+-myscript-pen-fill-style:solid;
+}
+
+.darkFillShape
+{
+-myscript-pen-fill-color:#44aadfbb;
+-myscript-pen-fill-style:solid;
+-myscript-pen-brush:Polyline;
+}
+
+.halo
+{
+-myscript-pen-fill-color:#44aadf44;
+-myscript-pen-fill-style:solid;
+}
+
+.darkHalo
+{
+-myscript-pen-fill-color:#44aadf88;
+-myscript-pen-fill-style:solid;
+-myscript-pen-brush:Polyline;
+}
+
+.tableText
+{
+line-height:1.65;
+font-size:6.045;
+}
+
+.pieFirst
+{
+-myscript-pen-fill-color:FFCCF244;
+-myscript-pen-fill-style:solid;
+-myscript-pen-brush:Polyline;
+}
+
+.pieSecond
+{
+-myscript-pen-fill-color:99E69944;
+-myscript-pen-fill-style:solid;
+-myscript-pen-brush:Polyline;
+}
+
+.pieThird
+{
+-myscript-pen-fill-color:80dfff44;
+-myscript-pen-fill-style:solid;
+-myscript-pen-brush:Polyline;
+}
+
+.tableRuler
+{
+-myscript-pen-width:1.6;
+-myscript-pen-fill-color:80dfff44;
+-myscript-pen-fill-style:solid;
+}
+
+.headingBox
+{
+color:#CED1D4ff;
+-myscript-pen-width:1.0;
+-myscript-pen-fill-color:#F5F6F77f;
+-myscript-pen-fill-style:solid;
+}
+
+.externalBorder
+{
+-myscript-pen-width:1.6;
+}
+
+.internalBorder
+{
+-myscript-pen-width:1;
+}
+
+.implicitBorder
+{
+color:#00000055;
+-myscript-pen-width:.6;
+-myscript-pen-brush:dash caps-square;
+}
+
+.implicitExtension
+{
+color:#00000017;
+-myscript-pen-width:.6;
+-myscript-pen-brush:dotted caps-square;
+}
+
+.tableLabel
+{
+color:#888888ff;
+font-size:4.534;
+}
+
+.anchorBorder
+{
+color:#888888ff;
+-myscript-pen-width:.8;
+}
+
+.tags
+{
+color:#ff0000ff;
+font-family:sans-serif;
+font-size:2.26;
+}
+
+.externalHandle
+{
+color:#1a8bffff;
+-myscript-pen-brush:Polyline;
+-myscript-pen-fill-color:#ffffffff;
+-myscript-pen-fill-style:solid;
+-myscript-pen-width:1.0;
+}
+
+.externalHandlePale
+{
+color:#44aadf55;
+-myscript-pen-fill-color:#ffffff55;
+}
+
+.middleHandle
+{
+color:#ffffffff;
+-myscript-pen-fill-color:#1a8bffff;
+-myscript-pen-fill-style:solid;
+-myscript-pen-width:0.5;
+}
+
+.middleHandlePale
+{
+color:#ffffff55;
+-myscript-pen-fill-color:#44aadf55;
+}
+
+.joinHandle
+{
+color:#1a8bffff;
+-myscript-pen-fill-color:#1a8bffff;
+-myscript-pen-fill-style:solid;
+-myscript-pen-width:1.0;
+}
+
+.defaultHandle
+{
+color:#ffffffff;
+-myscript-pen-brush:Polyline;
+-myscript-pen-fill-color:#1a8bffff;
+-myscript-pen-fill-style:solid;
+-myscript-pen-width:0.5;
+}
+
+.defaultHandlePale
+{
+color:#aaaaaa44;
+-myscript-pen-brush:Polyline;
+-myscript-pen-fill-color:#44444444;
+-myscript-pen-fill-style:solid;
+-myscript-pen-width:0.5;
+}
+
+.defaultHandleInactive
+{
+color:#ffffffaa;
+-myscript-pen-brush:Polyline;
+-myscript-pen-fill-color:#1a8bffaa;
+-myscript-pen-fill-style:solid;
+-myscript-pen-width:0.5;
+}
+
+.alignmentGuideLine
+{
+color:#1a8bffff;
+-myscript-pen-width:0.5;
+-myscript-pen-brush:dash caps-square;
+}
+
+.homotheticGuideLine
+{
+color:#1a8bffff;
+-myscript-pen-width:0.5;
+-myscript-pen-brush:dash caps-square;
+}
+
+.squareGuideLine
+{
+color:#1a8bffff;
+-myscript-pen-width:0.5;
+-myscript-pen-brush:dash caps-square;
+}
+
+.innerSquareGuideLine
+{
+color:#1a8bffff;
+-myscript-pen-width:0.5;
+-myscript-pen-brush:dash caps-square;
+}
+
+.imageAspectRatioGuideLine
+{
+color:#1a8bffff;
+-myscript-pen-width:0.5;
+-myscript-pen-brush:dash caps-square;
+}
+
+.gridDark
+{
+color:#00000044;
+-myscript-pen-width:0.5;
+}
+
+.gridLight
+{
+color:#00000011;
+-myscript-pen-width:0.5;
+}
+
+.selectionMultiple
+{
+color:#1a8bff4c;
+-myscript-pen-width:0.5;
+}
+
+.greyGhost
+{
+color:#bfbfbfff;
+}
+
+.blueGhost
+{
+color:#1a8bffff;
+}
+
+.diagramGuide
+{
+color:#00000029;
+-myscript-pen-width:0.208;
+}
+
+.diagramGuideInter
+{
+color:#00000029;
+-myscript-pen-width:0.208;
+}
+
+.diagramGuideDots
+{
+color:#00000029;
+-myscript-pen-width:1.2;
+-myscript-pen-brush:dotted.4.44;
+}
+
+/* Optional Styles */
+.black
+{
+color:#000000ff;
+}
+
+.darkGrey
+{
+color:#808080ff;
+}
+
+.lightGrey
+{
+color:#D9D9D9ff;
+}
+
+.blue
+{
+color:#1a8cffff;
+}
+
+.red
+{
+color:#ff1a40ff;
+}
+
+.green
+{
+color:#2bd965ff;
+}
+
+.yellow
+{
+color:#ffdd33ff;
+}
+
+/* Math */
+.atk-math-regular
+{
+font-style: normal;
+}
+
+.atk-math-italic
+{
+font-style: italic;
+}
+
+/* color is transparent, only fill is important */
+.connectionFeedback
+{
+color:#00000000;
+-myscript-pen-fill-color:#44aadfff;
+-myscript-pen-fill-style:solid;
+}
+.connectedShapeFeedback
+{
+color:#44aadfff;
+}
+
+/* Diagram type feedback */
+.diagram-shape
+{
+color:#ff1a404f;
+-myscript-pen-width: 2;
+}
+
+.diagram-drawing
+{
+color:#ffdd334f;
+-myscript-pen-width: 2;
+}
+
+.diagram-math
+{
+color:#2bd9654f;
+-myscript-pen-width: 2;
+}
+
+.diagram-text
+{
+color:#1a8cff4f;
+-myscript-pen-width: 2;
+}
+
+.diagram-typeset
+{
+color:#1a8cffff;
+}
+
+.diagram-table
+{
+color:#ff69b44f;
+-myscript-pen-width: 2;
+}
+
+.imageFakeContent
+{
+color:#00000000;
+-myscript-pen-width: 0.0;
+-myscript-pen-brush:Polyline;
+}
+
+.atk-math-regular { font-style:normal; font-family:STIX Two Math; } .atk-math-italic { font-style:italic; font-family:STIX Two Text; } .atk-math-transient { color:#A8A8A8FF; font-style:regular; font-family:STIX Two Math; } .math-selection { color:#4b577599; } .math-solved-selection { color:#A8A8A899; } .atk-math-baseline { -myscript-pen-width:0.4; color:#A8A8A8ff; } .atk-math-guide { -myscript-pen-width:.4; color:#7777AAAA; } .atk-math-separator { -myscript-pen-brush:dash caps-square; -myscript-pen-width:0.4; color:#9fABC977; } .atk-math-invisible { color:#00000000; } .atk-math-error { color:#aa1111FF; } .atk-math-dd { color:#00BFFFAA; } .atk-math-main { color:#4b5775FF; } .atk-math-forbidden-circle { color:#A8A8A8AA; font-style:regular; font-family:sans-serif; } .invisiblestyle { color: #00000000; -myscript-pen-width:0; -myscript-pen-brush:Square;} 
+.ink-rubber-style { color: #00000000; -myscript-pen-width:1; -myscript-pen-brush:Square;} 
+.guide { color : #00000029; -myscript-pen-width:0.208; -myscript-pen-brush:Polyline; } 
+.guideDash { -myscript-pen-brush:pattern.8.88,2.22,0.f,true; } 
+.eraser-pen{ color : #0e476bff; -myscript-pen-width:0.208; } 
+.active-pen-input
+{
+ -myscript-pen-smoothing: none;
+}
+.capacitive-pen-input
+{
+ -myscript-pen-smoothing: legacy;
+}
+.brush{ -myscript-pen-brush:Highlighter; } 
+.brush-oriented{ -myscript-pen-brush:Highlighter oriented; } 
+.big-typeset-style { font-size:5.92; line-height: 1.5; } 
+.small-typeset-style{ font-size:2.96; line-height: 1.5; } 
+ink { color: #000000ff; -myscript-pen-brush:FeltPen; font-family:sans-serif;font-size:4.44;-myscript-pen-width: 0.625;line-height: 1.5} 
+stroke {-myscript-pen-brush:FeltPen;} 
+.text-heading1 { font-weight: 700; font-size: 8.14; line-height: 1.09091; } 
+.text-heading2 { font-weight: 700; font-size: 5.55; line-height: 1.09091; } 
+.text-heading3 { font-weight: 700; font-size: 3.33; line-height: 1.09091; } 
+.text-underline { -myscript-text-decoration-style:underlined; } 
+.text-double-underline { -myscript-text-decoration-style:double-underlined; } 
+.text-bold { font-weight:700; } 
+.text-highlight { -myscript-text-decoration-style:framed-background; } 
+.text-strikethrough { -myscript-text-decoration-style:strikethrough; } 
+.defaultPenBrushStyle { -myscript-pen-brush:FeltPen; } 
+.black-color { color: #000000FF;} 
+.black-color-decoration {-myscript-text-decoration-background-color:#FFED2666 ; -myscript-text-decoration-color: #000000FF;} 
+.drak-grey-color { color: #808080FF;} 
+.drak-grey-color-decoration {-myscript-text-decoration-background-color:#FFED2666 ; -myscript-text-decoration-color: #808080FF;} 
+.light-grey-color { color: #D9D9D9FF;} 
+.light-grey-color-decoration {-myscript-text-decoration-background-color:#FFED2666 ; -myscript-text-decoration-color: #D9D9D9FF;} 
+.white-color { color: #FFFFFFFF;} 
+.white-color-decoration {-myscript-text-decoration-background-color:#FFED2666 ; -myscript-text-decoration-color: #FFFFFFFF;} 
+.blue-color { color: #1A8CFFFF;} 
+.blue-color-decoration {-myscript-text-decoration-background-color:#66CCFF66 ; -myscript-text-decoration-color: #1A8CFFFF;} 
+.red-color { color: #FF1A40FF;} 
+.red-color-decoration {-myscript-text-decoration-background-color:#FF405066 ; -myscript-text-decoration-color: #FF1A40FF;} 
+.green-color { color: #2BD965FF;} 
+.green-color-decoration {-myscript-text-decoration-background-color:#2BD96566 ; -myscript-text-decoration-color: #2BD965FF;} 
+.yellow-color { color: #FFDD33FF;} 
+.yellow-color-decoration {-myscript-text-decoration-background-color:#FFED2666 ; -myscript-text-decoration-color: #FFDD33FF;} 
+.red2-color { color: #FF1A1AFF;} 
+.red2-color-decoration {-myscript-text-decoration-background-color:#FF1A1A66 ; -myscript-text-decoration-color: #FF1A1AFF;} 
+.fuchsia-color { color: #FF3387FF;} 
+.fuchsia-color-decoration {-myscript-text-decoration-background-color:#FF338766 ; -myscript-text-decoration-color: #FF3387FF;} 
+.purple-color { color: #9B24B3FF;} 
+.purple-color-decoration {-myscript-text-decoration-background-color:#9B24B366 ; -myscript-text-decoration-color: #9B24B3FF;} 
+.indigo-color { color: #3939BEFF;} 
+.indigo-color-decoration {-myscript-text-decoration-background-color:#1A9FFF66 ; -myscript-text-decoration-color: #3939BEFF;} 
+.blue2-color { color: #1A9FFFFF;} 
+.blue2-color-decoration {-myscript-text-decoration-background-color:#1A9FFF66 ; -myscript-text-decoration-color: #1A9FFFFF;} 
+.turquoise-color { color: #00D9D9FF;} 
+.turquoise-color-decoration {-myscript-text-decoration-background-color:#00D9D966 ; -myscript-text-decoration-color: #00D9D9FF;} 
+.green2-color { color: #00D97EFF;} 
+.green2-color-decoration {-myscript-text-decoration-background-color:#00D97E66 ; -myscript-text-decoration-color: #00D97EFF;} 
+.lime-color { color: #60F160FF;} 
+.lime-color-decoration {-myscript-text-decoration-background-color:#60F16066 ; -myscript-text-decoration-color: #60F160FF;} 
+.amber-color { color: #FFB937FF;} 
+.amber-color-decoration {-myscript-text-decoration-background-color:#FFB93766 ; -myscript-text-decoration-color: #FFB937FF;} 
+.taupe-color { color: #4D4B49FF;} 
+.taupe-color-decoration {-myscript-text-decoration-background-color:#4D4B4966 ; -myscript-text-decoration-color: #4D4B49FF;} 
+.blue-bic-color { color: #0645ADFF;} 
+.blue-bic-color-decoration {-myscript-text-decoration-background-color:#0645AD66 ; -myscript-text-decoration-color: #0645ADFF;} 
+.pen-015 { -myscript-pen-width:0.1332; } 
+.pen-025 { -myscript-pen-width:0.3108; } 
+.pen-035 { -myscript-pen-width:0.555; } 
+.pen-050 { -myscript-pen-width:0.7992; } 
+.pen-070 { -myscript-pen-width:1.2432; } 
+.pen-100 { -myscript-pen-width:1.776; } 
+.brush-0125 { -myscript-pen-width:1.11; } 
+.brush-0250 { -myscript-pen-width:2.22; } 
+.brush-0500 { -myscript-pen-width:4.44; } 
+.brush-0750 { -myscript-pen-width:6.66; } 
+.brush-1125 { -myscript-pen-width:9.99; } 
+.brush-1750 { -myscript-pen-width:15.54; } 
+.selection-outline{-myscript-pen-brush:Polyline; color:#1a8cffff; -myscript-pen-width:0.208;}.selection-overlay{-myscript-pen-fill-color:#44aadf44; -myscript-pen-fill-style:solid;}.selection-overlap{color:#00000025; -myscript-pen-fill-color:#0000000A; -myscript-pen-fill-style:solid;}.selection-handles{color:#ffffffff; -myscript-pen-fill-color:#1a8cffff; -myscript-pen-fill-style:solid; -myscript-pen-width:0.104;}.selection-external-handles{color:#1a8cffff; -myscript-pen-fill-color:#ffffffff; -myscript-pen-fill-style:solid; -myscript-pen-width:0.208;}.section-handles{-myscript-pen-brush:default round; color:#1a8cffff; -myscript-pen-fill-color:#ffffffff; -myscript-pen-fill-style:solid; -myscript-pen-width:2.0;}.selection-cursor{color:#000000ff; -myscript-pen-width:0.208;}.selection-inline{-myscript-pen-brush:Polyline; color:#00000000; -myscript-pen-fill-color:#1a8eff44; -myscript-pen-fill-style:solid;}.drag-background{-myscript-pen-fill-color:#ffffffbb; -myscript-pen-fill-style:solid; -myscript-pen-brush:default;}.drag-origin{-myscript-pen-fill-color:#ffffffaa; -myscript-pen-fill-style:solid; -myscript-pen-brush:Polyline; color:#ffffff00; -myscript-pen-width:0.1;}.drag-drop-area-line{-myscript-pen-brush:Polyline; color:#1a8cffff; -myscript-pen-width:1.0;}.drag-available-area-line{-myscript-pen-brush:Polyline; color:#1a8cffff; -myscript-pen-width:0.3;}.space-management-arrow{-myscript-pen-fill-color:#1a8cffff; -myscript-pen-fill-style:solid;}.space-management-line{-myscript-pen-brush:Polyline; color:#1a8cffff; -myscript-pen-width:1.0;}.search-hit-active{-myscript-pen-brush:Polyline; color:#00000000; -myscript-pen-fill-color:#1A9FFF80; -myscript-pen-fill-style:solid;}.search-hit-inactive{-myscript-pen-brush:Polyline; color:#00000000; -myscript-pen-fill-color:#1A9FFF40; -myscript-pen-fill-style:solid;}
