@@ -1,3 +1,6 @@
 [submodule "interactive-ink-examples-uwp"]
 	path = interactive-ink-examples-uwp
 	url = https://github.com/Doublonmousse/interactive-ink-examples-uwp
+[submodule "ink_serialized_format_converter"]
+	path = ink_serialized_format_converter
+	url = https://github.com/Doublonmousse/ink_serialized_format_converter
