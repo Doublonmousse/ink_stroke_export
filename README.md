@@ -27,4 +27,4 @@ One interesting property though is that stroke information is available when cop
 
 ## OneNote
 
-Same remark as Journal's on inkml for strokes being available when copying a selection. This time images are also available and encoded in base64 for png under an html filetype in the clipboard.
+Same remark as Journal's on inkml for strokes being available when copying a selection. This time images are also available and encoded in base64 for png under an html filetype in the clipboard (but ink strokes are sometimes also part of images, the html representation gives you relative placements ...) With OneMore, you can export to xml your files (and strokes are then listed under their binary form - ink serialized format- but all placements are not relative anymore.
